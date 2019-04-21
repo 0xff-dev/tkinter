@@ -32,3 +32,8 @@ btn.bind("<Button-1>", new_lable)
 bnt.pack()
 root.mainloop()
 ```
+
+## 菜单
+> Menu(parent), 使用`add_command`增加菜单， `add_cascade`及联添加子选项.
+> 弹出菜单, 由`Menu.post`制作
+> `add_separator`为菜单添加分割线.
